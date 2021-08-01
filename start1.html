@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Start Quiz</title>
+</head>
+
+<body>
+  
+
+    <div>
+        <button onclick="startQuiz(this)" class="startstyle" id="startBtn">Start Quiz ? </button>
+    </div>
+
+
+    <div class="cont hide" id="cont">
+        <b id="hour">00</b>
+        <b>:</b>
+        <b id="min">00</b>
+        <b>:</b>
+
+        <b id="sec">00</b>
+    </div>
+
+<div class="timer_Controls">
+    <!-- ------Play button coding------------------------ -->
+    <div class="play_btn">
+        <div class="play" id="Btn" onclick="startQuiz()"> <i class="fas fa-play"></i></div>
+    </div>
+
+    <!-- -------Stop button coding-------------------------------------- -->
+    <div class="stop_btn">
+        <div class="stop" onclick="stopTimer()"> <i class="fas fa-stop"></i></div>
+    </div>
+
+    <!-- -------reset icon coding-------------------------------------  -->
+    <div class="reset_btn">
+        <div class="reset" onclick="resetTimer()"> <img src="reset-png.png" alt=""></div>
+    </div>
+</div>
+
+
+
+<!-- ---------quiz app--------------------- -->
+    <div class="quizbox hide" id="quizApp">
+        
+        <h2 id="quizQues"> </h1>
+        
+            <li class="option disabled"></li>
+            <li class="option"></li>
+            <li class="option"></li>
+            <li class="option"></li>
+            <!-- <li class="option"></li> -->
+            <!-- <li class="option"></li> -->
+            <!-- <li class="option">Hyper Text</li> -->
+        <button onclick="quesChange()" class="btn"> NEXT </button>
+        <!-- <button class="btn btn-primary" onclick="quesChange()" >NEXT</button> -->
+    </div>
+<!-- </div> -->
+</body>
+<script src="app.js"></script>
+
+</html>

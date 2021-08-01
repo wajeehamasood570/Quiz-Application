@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg');
+    background-size: cover;
+}
+.startstyle{
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(22, 22, 22);
+    font-size: 20px;
+    border-radius: 30%;
+
+}
+.quizbox{
+    border: 2px solid rgb(0, 132, 255); 
+    background-color: rgb(6, 52, 136);
+    padding: 0px;
+    border-radius: 20px;
+}
+#quizQues{
+    color: white;
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -10px;;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+
+li{
+    border: 2px solid rgba(0, 0, 0, 0.226);
+    margin: 10px 0;
+    padding: 8px;
+    list-style-type :none;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: ghostwhite;
+}
+.btn{
+    border: 2px solid rgba(0, 0, 0, 0.226);
+    margin: 10px 0;
+    padding: 15px;
+    list-style-type :upper-alpha;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: ghostwhite;
+   
+}
+
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+.disable{
+pointer-events: none;
+}
+
+.btn{
+    display: nones;
+    content: Submit;
+}
+
+.list{
+    list-style-type: none;
+}
+
+ /* for timer */
+ .cont{
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    text-align: center;
+    font-size: 20px;
+
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    letter-spacing: 15px;;
+    padding: 7px;
+}
+.timer_Controls{
+    display: flex;
+    justify-content: column;
+    
+  
+}
+
+
+
+   
+

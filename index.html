@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <div class="title-container">
+                <h2>Registration Form</h2>
+            </div>
+            <form action="start1.html" method="post" >
+                <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Name:   <b style="color: rgb(148, 44, 17);"> * </b></p>
+              <div class="input_field"> <span><i class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Your Name" id="name" required />
+              </div>
+
+              <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Father Name:   <b style="color: rgb(148, 44, 17);"> * </b></p>
+              <div class="input_field"> <span><i class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Father Name" required />
+              </div>
+
+              <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Age:   <b style="color: rgb(148, 44, 17);"> * </b></p>
+              <div class="input_field select_option"> 
+                    <span> <i class="fa fa-child fa-lg"></i></span>
+                      <!-- <label for="age">Select Your Age:</label> -->
+                        <select name="age" id="age" required>
+                          <option value="">Your Age</option>
+                        <option value="">10 </option>
+                        <option value="" >11 </option>
+                        <option value="" >12 </option>
+                        <option value="" >13 </option>
+                        <option value="" >14 </option>
+                        <option value="" >15 </option>
+                        <option value="" >16 </option>
+                    </select>     
+
+
+                     <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> City:   <b style="color: rgb(148, 44, 17);"> * </b></p>
+              <div class="input_field select_option2"> 
+                    <span> <i class="fas fa-city"></i></span>
+                    <select name="City" id="city" required>
+                       <option value="">Your City</option>
+                        <option value="">Karachi</option>
+                        <option  value="" >Islamabad</option>
+                        <option  value="" >Lahore</option>
+                        <option  value="" >Hyderabad</option>
+                        <option  value="" >Peshawar</option>
+                        <option  value="" >Multan</option>
+                        <option  value="" >Quetta</option>
+                    </select>
+                    
+                    <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Gender:  <b style="color: rgb(180, 55, 24);"> * </b></p>
+                <div class="input_field radio_option">
+                <input type="radio" name="radiogroup1" id="rd1 " required="required">
+                <label for="rd1">Male</label>
+                <input type="radio" name="radiogroup1" id="rd2">
+                <label for="rd2">Female</label>
+                <input type="radio" name="radiogroup1" id="rd3">
+                <label for="rd3">Other</label>
+                </div>
+
+
+                <p style="margin-left: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Educational Institute:   </p>
+                <div class="input_field"> <span><i  class="fa fa-graduation-cap"></i></span>
+                <input type="textarea" name="institute name" placeholder="Educational Institute"   size="25"/>
+
+
+                <!-- <button  type="submit"0 value="Start">Submit</button> -->
+                    <input id="sub" type="submit" value="submit and proceed">
+                    <!-- <button class="button button1">Green</button> -->
+                    
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
